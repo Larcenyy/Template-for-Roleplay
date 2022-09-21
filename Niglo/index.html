@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NigloLand Roleplay | Home</title>
+    <meta name="description" content="myRoleplay est un serveur roleplay francophone sur la plateforme GTA San Andreas, venez découvrir nos atouts.">
+
+
+    <link rel="shortcut icon" href="/img/niglo_main.png" type="image/x-icon">
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nabla&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- script animation -->
+</head>
+<body>
+    <header id="home">
+        <h1>NigloLand Roleplay</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
+                <li><a href="https://discord.gg/niglolandrp"><i class="fab fa-discord"></i>Discord</a></li>
+                <li><a href="rules.html"><i class="fas fa-image"></i>Règlement</a></li>
+                <li><a href="login.php" id="active"><i class="fas fa-user"></i>Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mainContainer">
+        <div class="mainBox">
+            <div class="mainChat">
+                <h2>NigloLand Roleplay, c'est quoi ?</h2>
+                <p>
+                    Nigloland RP est un serveur sur lequel on joue a un <strong>serious roleplay</strong>
+                    Le serveur dispose d'un <strong>développement constant</strong> géré par une équipe de développeurs professionel.
+                    Nous avons instauré une mentalitée de <strong>fairplay</strong> entre les staffs et les joueurs; <strong>tout le monde est logé a la même enseigne</strong>
+                    Le serveur est ouvert depuis plus de <strong>1 an</strong> et a su se forger une comunautée <strong>mature est sérieuse.</strong>
+                    Voici quelques images de choses <strong>exclusives</strong> que l'on peut retrouver sur le serveur :
+                </p>
+                <div class="newsContent">
+                    <div class="news">
+                        <ul>
+                            <li><img src="/img/spoil1.png" alt=""></li>
+                            <li><img src="/img/spoil3.png" alt=""></li>
+                            <li><img src="/img/spoil2.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="vitrine.html">Vitrine</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="contentFooter">
+            <div class="contentLeft">
+                <h3>niglolandrp</h3>
+                <p>(c) 2022 - niglolandrp theme designed by Keetamine</p>
+            </div>
+            <div>
+                <h4>Liens utiles:</h4>
+                <ul>
+                    <li><a href="">Rejoindre le discord.</a></li>
+                    <li><a href="">Règlement du serveur.</a></li>
+                    <li><a href="">Découvrir la galérie des joueurs.</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <a href="#home" id="myBtn"><i class="fas fa-arrow-up"></i></a>
+</body>
+<script>
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }
+
+    AOS.init({
+    // Global settings:
+    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+    startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+    initClassName: 'aos-init', // class applied after initialization
+    animatedClassName: 'aos-animate', // class applied on animation
+    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+    
+
+    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+    offset: 120, // offset (in px) from the original trigger point
+    delay: 0, // values from 0 to 3000, with step 50ms
+    duration: 400, // values from 0 to 3000, with step 50ms
+    easing: 'ease', // default easing for AOS animations
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+    anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+</script>
+</html>
